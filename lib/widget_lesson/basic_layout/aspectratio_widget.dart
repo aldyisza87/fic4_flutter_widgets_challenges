@@ -14,7 +14,7 @@ class AspectRatioWidget extends StatelessWidget {
         child: Column(
           children: [
             AspectRatio(
-              aspectRatio: 180 / 240,
+              aspectRatio: 18 / 18,
               child: Container(
                 color: Colors.blue,
               ),

@@ -1,4 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:project_flutter_pertama/tugas/basic_widget/Images_widgets.dart';
+import 'package:project_flutter_pertama/tugas/basic_widget/botton_widget.dart';
+import 'package:project_flutter_pertama/tugas/basic_widget/container_widget.dart';
+import 'package:project_flutter_pertama/tugas/basic_widget/icon_widget.dart';
+import 'package:project_flutter_pertama/tugas/basic_widget/scaffold_widgets.dart';
+import 'package:project_flutter_pertama/tugas/basic_widget/text_widgets.dart';
+import 'package:project_flutter_pertama/tugas/fic_column_widget.dart';
 import 'package:project_flutter_pertama/widget_lesson/basic_form/dialog_widget.dart';
 import 'package:project_flutter_pertama/widget_lesson/basic_form/form_widget.dart';
 import 'package:project_flutter_pertama/widget_lesson/basic_layout/aspectratio_widget.dart';
@@ -36,11 +43,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CircleAvatarWidget(),
+      home: CenterWidget(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Jago Flutter'),

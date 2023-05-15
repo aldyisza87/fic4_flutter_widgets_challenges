@@ -7,6 +7,7 @@ class CircleAvatarWidget extends StatelessWidget {
     Colors.blue,
     Colors.cyan,
     Colors.amber,
+    Colors.black,
   ];
 
   @override

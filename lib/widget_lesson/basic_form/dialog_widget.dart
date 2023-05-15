@@ -15,8 +15,11 @@ class _DialogWigetState extends State<DialogWiget> {
         title: const Text("FIC - Dialog & Bottomsheet"),
       ),
       body: Container(
-        padding: const EdgeInsets.all(10.0),
+        color: Color.fromARGB(179, 82, 193, 187),
+        width: 400,
+        height: 400,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
               onPressed: () async {
