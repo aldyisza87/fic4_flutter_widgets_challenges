@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project_flutter_pertama/tugas/basic_layout/aspecratio.dart';
+import 'package:project_flutter_pertama/tugas/basic_layout/center.dart';
+import 'package:project_flutter_pertama/tugas/basic_layout/column_widgets.dart';
 import 'package:project_flutter_pertama/tugas/basic_widget/Images_widgets.dart';
 import 'package:project_flutter_pertama/tugas/basic_widget/botton_widget.dart';
 import 'package:project_flutter_pertama/tugas/basic_widget/container_widget.dart';
@@ -48,7 +51,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CenterWidget(),
+      home: ExpandedWidget(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: const Text('Jago Flutter'),

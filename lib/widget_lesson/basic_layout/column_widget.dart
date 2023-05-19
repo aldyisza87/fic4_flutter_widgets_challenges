@@ -11,9 +11,9 @@ class ColumnWidget extends StatelessWidget {
       ),
       body: Container(
         padding: const EdgeInsets.all(10.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
+        child: const Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
             Text(
               'Stylish Chair',
               style: TextStyle(

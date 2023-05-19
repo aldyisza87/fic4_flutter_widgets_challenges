@@ -10,7 +10,7 @@ class CenterWidget extends StatelessWidget {
         title: const Text('JagoFlutter - Center'),
       ),
       body: Container(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(10.0), 
         child: Column(
           children: [
             Center(
